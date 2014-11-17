@@ -1,8 +1,19 @@
 body {
-  font-family: Verdana;
-  font-size: 1.5em; }
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  margin: 0;
+  padding: 0;
+  border: 0; }
   body h1 {
-    color: #FF0000; }
+    color: #008f8f; }
+  body footer {
+    clear: both;
+    background-color: #008f8f;
+    height: 30px; }
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0px auto; }
 
 #team-members {
   clear: both; }
@@ -17,7 +28,8 @@ body {
       -webkit-filter: sepia(100%); }
       #team-members .member img:hover {
         filter: saturte(1);
-        -webkit-filter: none; }
+        -webkit-filter: none;
+        border-radius: 50%; }
     #team-members .member div.name {
       text-align: center;
       font-size: .8em; }
