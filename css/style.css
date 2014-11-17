@@ -13,8 +13,13 @@ body {
     padding: 6px; }
     #team-members .member img {
       width: 200px;
-      height: 200px; }
+      height: 200px;
+      -webkit-filter: sepia(100%); }
+      #team-members .member img:hover {
+        filter: saturte(1);
+        -webkit-filter: none; }
     #team-members .member div.name {
-      text-align: center; }
+      text-align: center;
+      font-size: .8em; }
 
 /*# sourceMappingURL=style.css.map */

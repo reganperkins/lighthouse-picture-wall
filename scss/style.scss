@@ -18,9 +18,15 @@ body {
         img {
           width: 200px;
           height: 200px;
+          -webkit-filter: sepia(100%); 
+          &:hover {
+            filter: saturte(1);
+            -webkit-filter: none; 
+          }
         }
         div.name {
-          text-align: center;  
+          text-align: center; 
+          font-size: .8em; 
         }
     }
 }
